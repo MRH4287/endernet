@@ -34,4 +34,11 @@ public class WailaIntegration implements IWailaDataProvider {
 		return currenttip;
 	}
 
+	@Override
+	public List<String> getWailaTail(ItemStack arg0, List<String> arg1,
+			IWailaDataAccessor arg2, IWailaConfigHandler arg3) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
